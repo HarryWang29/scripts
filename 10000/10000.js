@@ -10,6 +10,7 @@
 const $ = new Env('中国电信')
 $.KEY_mobile = 'chavy_mobile_10000'
 $.KEY_signbody = 'chavy_signbody_10000'
+$.KEY_signheader = 'chavy_signheader_10000'
 
 !(async () => {
   $.CryptoJS = $.isNode() ? require('crypto-js') : CryptoJS
